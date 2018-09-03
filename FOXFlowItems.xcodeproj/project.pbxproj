@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66ABB2AB213D3209004F269D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66ABB2AA213D3209004F269D /* AppDelegate.m */; };
+		66ABB2AE213D3209004F269D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66ABB2AD213D3209004F269D /* ViewController.m */; };
+		66ABB2B1213D3209004F269D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66ABB2AF213D3209004F269D /* Main.storyboard */; };
+		66ABB2B3213D320B004F269D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66ABB2B2213D320B004F269D /* Assets.xcassets */; };
+		66ABB2B6213D320B004F269D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66ABB2B4213D320B004F269D /* LaunchScreen.storyboard */; };
+		66ABB2B9213D320B004F269D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66ABB2B8213D320B004F269D /* main.m */; };
+		66ABB2CC213D327C004F269D /* FOXFlowItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 66ABB2C0213D327C004F269D /* FOXFlowItemCell.m */; };
+		66ABB2CD213D327C004F269D /* FOXFlowVerticalItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66ABB2C1213D327C004F269D /* FOXFlowVerticalItemView.m */; };
+		66ABB2CE213D327C004F269D /* FOXFlowItemsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66ABB2C2213D327C004F269D /* FOXFlowItemsView.m */; };
+		66ABB2CF213D327C004F269D /* FOXFlowAlignedFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 66ABB2C6213D327C004F269D /* FOXFlowAlignedFlowLayout.m */; };
+		66ABB2D0213D327C004F269D /* FOXFlowHorizontalItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66ABB2C9213D327C004F269D /* FOXFlowHorizontalItemView.m */; };
+		A4D4DBDEFC7ED8C924649CAB /* libPods-FOXFlowItems.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D2C60074237D81E31DA876 /* libPods-FOXFlowItems.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25D2C60074237D81E31DA876 /* libPods-FOXFlowItems.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FOXFlowItems.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		420F7B9503F3A9F6CFB377D5 /* Pods-FOXFlowItems.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FOXFlowItems.release.xcconfig"; path = "Pods/Target Support Files/Pods-FOXFlowItems/Pods-FOXFlowItems.release.xcconfig"; sourceTree = "<group>"; };
+		66ABB2A6213D3209004F269D /* FOXFlowItems.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FOXFlowItems.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66ABB2A9213D3209004F269D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66ABB2AA213D3209004F269D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66ABB2AC213D3209004F269D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		66ABB2AD213D3209004F269D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		66ABB2B0213D3209004F269D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66ABB2B2213D320B004F269D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66ABB2B5213D320B004F269D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66ABB2B7213D320B004F269D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66ABB2B8213D320B004F269D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66ABB2C0213D327C004F269D /* FOXFlowItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOXFlowItemCell.m; sourceTree = "<group>"; };
+		66ABB2C1213D327C004F269D /* FOXFlowVerticalItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOXFlowVerticalItemView.m; sourceTree = "<group>"; };
+		66ABB2C2213D327C004F269D /* FOXFlowItemsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOXFlowItemsView.m; sourceTree = "<group>"; };
+		66ABB2C3213D327C004F269D /* FOXFlowHorizontalItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOXFlowHorizontalItemView.h; sourceTree = "<group>"; };
+		66ABB2C5213D327C004F269D /* FOXFlowAlignedFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOXFlowAlignedFlowLayout.h; sourceTree = "<group>"; };
+		66ABB2C6213D327C004F269D /* FOXFlowAlignedFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOXFlowAlignedFlowLayout.m; sourceTree = "<group>"; };
+		66ABB2C7213D327C004F269D /* FOXFlowItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOXFlowItemCell.h; sourceTree = "<group>"; };
+		66ABB2C8213D327C004F269D /* FOXFlowVerticalItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOXFlowVerticalItemView.h; sourceTree = "<group>"; };
+		66ABB2C9213D327C004F269D /* FOXFlowHorizontalItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOXFlowHorizontalItemView.m; sourceTree = "<group>"; };
+		66ABB2CA213D327C004F269D /* FOXFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOXFlow.h; sourceTree = "<group>"; };
+		66ABB2CB213D327C004F269D /* FOXFlowItemsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOXFlowItemsView.h; sourceTree = "<group>"; };
+		D145ACBACD97A02586F260CD /* Pods-FOXFlowItems.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FOXFlowItems.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FOXFlowItems/Pods-FOXFlowItems.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66ABB2A3213D3209004F269D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D4DBDEFC7ED8C924649CAB /* libPods-FOXFlowItems.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66ABB29D213D3209004F269D = {
+			isa = PBXGroup;
+			children = (
+				66ABB2A8213D3209004F269D /* FOXFlowItems */,
+				66ABB2A7213D3209004F269D /* Products */,
+				D5E0840EBFC085A10915840A /* Pods */,
+				CF8E9A5D331674839A941741 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		66ABB2A7213D3209004F269D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66ABB2A6213D3209004F269D /* FOXFlowItems.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66ABB2A8213D3209004F269D /* FOXFlowItems */ = {
+			isa = PBXGroup;
+			children = (
+				66ABB2BF213D327C004F269D /* FOXItems */,
+				66ABB2A9213D3209004F269D /* AppDelegate.h */,
+				66ABB2AA213D3209004F269D /* AppDelegate.m */,
+				66ABB2AC213D3209004F269D /* ViewController.h */,
+				66ABB2AD213D3209004F269D /* ViewController.m */,
+				66ABB2AF213D3209004F269D /* Main.storyboard */,
+				66ABB2B2213D320B004F269D /* Assets.xcassets */,
+				66ABB2B4213D320B004F269D /* LaunchScreen.storyboard */,
+				66ABB2B7213D320B004F269D /* Info.plist */,
+				66ABB2B8213D320B004F269D /* main.m */,
+			);
+			path = FOXFlowItems;
+			sourceTree = "<group>";
+		};
+		66ABB2BF213D327C004F269D /* FOXItems */ = {
+			isa = PBXGroup;
+			children = (
+				66ABB2CA213D327C004F269D /* FOXFlow.h */,
+				66ABB2C3213D327C004F269D /* FOXFlowHorizontalItemView.h */,
+				66ABB2C9213D327C004F269D /* FOXFlowHorizontalItemView.m */,
+				66ABB2C1213D327C004F269D /* FOXFlowVerticalItemView.m */,
+				66ABB2C8213D327C004F269D /* FOXFlowVerticalItemView.h */,
+				66ABB2CB213D327C004F269D /* FOXFlowItemsView.h */,
+				66ABB2C2213D327C004F269D /* FOXFlowItemsView.m */,
+				66ABB2C7213D327C004F269D /* FOXFlowItemCell.h */,
+				66ABB2C0213D327C004F269D /* FOXFlowItemCell.m */,
+				66ABB2C4213D327C004F269D /* FlowLayout */,
+			);
+			path = FOXItems;
+			sourceTree = "<group>";
+		};
+		66ABB2C4213D327C004F269D /* FlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				66ABB2C5213D327C004F269D /* FOXFlowAlignedFlowLayout.h */,
+				66ABB2C6213D327C004F269D /* FOXFlowAlignedFlowLayout.m */,
+			);
+			path = FlowLayout;
+			sourceTree = "<group>";
+		};
+		CF8E9A5D331674839A941741 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25D2C60074237D81E31DA876 /* libPods-FOXFlowItems.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5E0840EBFC085A10915840A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D145ACBACD97A02586F260CD /* Pods-FOXFlowItems.debug.xcconfig */,
+				420F7B9503F3A9F6CFB377D5 /* Pods-FOXFlowItems.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66ABB2A5213D3209004F269D /* FOXFlowItems */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66ABB2BC213D320B004F269D /* Build configuration list for PBXNativeTarget "FOXFlowItems" */;
+			buildPhases = (
+				76683DFDB23A2F2A46098E48 /* [CP] Check Pods Manifest.lock */,
+				66ABB2A2213D3209004F269D /* Sources */,
+				66ABB2A3213D3209004F269D /* Frameworks */,
+				66ABB2A4213D3209004F269D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FOXFlowItems;
+			productName = FOXFlowItems;
+			productReference = 66ABB2A6213D3209004F269D /* FOXFlowItems.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66ABB29E213D3209004F269D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Bilibili;
+				TargetAttributes = {
+					66ABB2A5213D3209004F269D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 66ABB2A1213D3209004F269D /* Build configuration list for PBXProject "FOXFlowItems" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66ABB29D213D3209004F269D;
+			productRefGroup = 66ABB2A7213D3209004F269D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66ABB2A5213D3209004F269D /* FOXFlowItems */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66ABB2A4213D3209004F269D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66ABB2B6213D320B004F269D /* LaunchScreen.storyboard in Resources */,
+				66ABB2B3213D320B004F269D /* Assets.xcassets in Resources */,
+				66ABB2B1213D3209004F269D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		76683DFDB23A2F2A46098E48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FOXFlowItems-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66ABB2A2213D3209004F269D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66ABB2CE213D327C004F269D /* FOXFlowItemsView.m in Sources */,
+				66ABB2AE213D3209004F269D /* ViewController.m in Sources */,
+				66ABB2CD213D327C004F269D /* FOXFlowVerticalItemView.m in Sources */,
+				66ABB2CF213D327C004F269D /* FOXFlowAlignedFlowLayout.m in Sources */,
+				66ABB2D0213D327C004F269D /* FOXFlowHorizontalItemView.m in Sources */,
+				66ABB2CC213D327C004F269D /* FOXFlowItemCell.m in Sources */,
+				66ABB2B9213D320B004F269D /* main.m in Sources */,
+				66ABB2AB213D3209004F269D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		66ABB2AF213D3209004F269D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66ABB2B0213D3209004F269D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66ABB2B4213D320B004F269D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66ABB2B5213D320B004F269D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66ABB2BA213D320B004F269D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66ABB2BB213D320B004F269D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66ABB2BD213D320B004F269D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D145ACBACD97A02586F260CD /* Pods-FOXFlowItems.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FOXFlowItems/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = live.bilibili.com.FOXFlowItems;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66ABB2BE213D320B004F269D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 420F7B9503F3A9F6CFB377D5 /* Pods-FOXFlowItems.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FOXFlowItems/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = live.bilibili.com.FOXFlowItems;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66ABB2A1213D3209004F269D /* Build configuration list for PBXProject "FOXFlowItems" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66ABB2BA213D320B004F269D /* Debug */,
+				66ABB2BB213D320B004F269D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66ABB2BC213D320B004F269D /* Build configuration list for PBXNativeTarget "FOXFlowItems" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66ABB2BD213D320B004F269D /* Debug */,
+				66ABB2BE213D320B004F269D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66ABB29E213D3209004F269D /* Project object */;
+}
